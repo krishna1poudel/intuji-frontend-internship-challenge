@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+.ApplyAll {
+  padding: 20px 20px;
+}
+
+#header {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(90deg, #c9e7f2 35%, #62bada 100%);
+  position: relative;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavOption {
+  display: flex;
+  font-size: 23px;
+  gap: 26px;
+}
+
+.sign button:first-child {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  margin-right: 30px;
+}
+.sign button:last-child {
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 16px 36px;
+  background: #4f46ba;
+}
+.FristSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.SectionLeft h1,
+h4 {
+  padding-bottom: 20px;
+}
+.SectionLeftButton {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.SectionLeftButton button:first-child {
+  background: #4f46ba;
+  border-radius: 12px;
+  padding: 15px 25px;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+
+.PlayIcon {
+  display: flex;
+  align-items: center;
+  background: none;
+  outline: none;
+  border: none;
+  color: #3734a9;
+  gap: 12px;
+}
+.CheckItem {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.checkItem span {
+  color: #757095;
+  padding-left: 10px;
+}
+
+.SectionRight img {
+  height: 600px;
+  margin-bottom: -25px;
+}
+
+.MainSecond {
+  background: #f5f6f8;
+}
+
+.MainSecond p {
+  text-align: center;
+}
+.companyLogo {
+  margin-top: 20px;
+}
+
+.companyLogo {
+  display: flex;
+  justify-content: space-around;
+}
+.Section-3 {
+  background-color: rgba(250, 251, 255, 1);
+}
