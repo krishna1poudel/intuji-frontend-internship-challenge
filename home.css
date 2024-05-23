@@ -8,6 +8,9 @@ html,
 .ApplyAll {
   padding: 20px 20px;
 }
+p {
+  font-family: "Manrope" sans-serif;
+}
 
 #header {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
@@ -114,4 +117,182 @@ h4 {
 }
 .Section-3 {
   background-color: rgba(250, 251, 255, 1);
+}
+
+.Section-3 {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.ContainFirst {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.ContainSecond {
+  position: relative;
+  background-color: rgba(196, 196, 196, 1);
+  border-radius: 10px;
+  padding: 30px 30px;
+}
+
+.ContainSecond p {
+  margin-bottom: 20px;
+}
+
+.LogoSet {
+  position: absolute;
+  top: -20px;
+  left: 21px;
+}
+.Section-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Section-4 div {
+  border: 1px solid rgba(219, 228, 233, 1);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.Section-4 div img {
+  width: 90px;
+  height: auto;
+}
+
+.Section-4 div span {
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  font-weight: 800;
+}
+
+.Section-5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Section-5 .ImagePerson {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 603px;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(219, 241, 250, 1);
+  position: relative;
+}
+.MoneyDescription {
+  display: flex;
+  align-items: center;
+  width: 433px;
+  height: 85px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.MoneyDescription:nth-child(2) {
+  margin-left: 140px;
+}
+.MoneyDescription:nth-child(3) {
+  margin-left: 70px;
+}
+
+.MoneyDescription img {
+  padding-left: 10px;
+  border-radius: 50%;
+}
+
+.MoneyDescription div {
+  padding-left: 30px;
+}
+
+.PaymentTrack {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.PaymentTrack .Listing {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.Section-6 {
+  display: flex;
+  justify-content: space-around;
+}
+.ProperTransaction {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ImagePortion1 {
+  display: relative;
+  width: 486px;
+  height: 540px;
+  display: flex;
+  background-color: rgba(219, 241, 250, 1);
+}
+
+.ImagePortion1 .Img2 {
+  position: absolute;
+}
+
+.Section-7 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(201, 231, 242, 1);
+}
+
+.MainContain {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.MainContain .WalletDiv {
+  width: 380px;
+  height: 338;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px;
+}
+
+.MainContain .Manage2Div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 15px;
+  gap: 45px;
+}
+.Manage2Div .Div1 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 25px;
+}
+
+.Manage2Div .Div2 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px;
+}
+
+.Section-9 {
+  background-color: rgba(55, 52, 169, 1);
+  color: white;
+}
+.SubscriptionBanner {
+  display: flex;
+  justify-content: space-around;
+}
+.Bold {
+  font-size: 48px;
 }
