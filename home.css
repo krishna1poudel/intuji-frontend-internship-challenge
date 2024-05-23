@@ -226,24 +226,25 @@ h4 {
 }
 .Section-6 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .ProperTransaction {
   display: flex;
   flex-direction: column;
+  width: 479px;
+  height: 463px;
   gap: 30px;
 }
-
-.ImagePortion1 {
-  display: relative;
-  width: 486px;
-  height: 540px;
-  display: flex;
-  background-color: rgba(219, 241, 250, 1);
+.ImagePortion1 div img {
+  width: 479px;
+  height: 463px;
 }
 
-.ImagePortion1 .Img2 {
-  position: absolute;
+.ProperTransaction a {
+  color: blue;
+}
+.Section-6 {
+  margin-top: 50px;
 }
 
 .Section-7 {
@@ -284,7 +285,29 @@ h4 {
   background-color: rgba(255, 255, 255, 1);
   padding: 15px;
 }
-
+.Section-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.TestimonialSection {
+  display: flex;
+  justify-content: space-between;
+}
+.TestimonialSection .TestimonialSection1 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.TestimonialSection .TestimonialSection2 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
 .Section-9 {
   background-color: rgba(55, 52, 169, 1);
   color: white;
@@ -295,4 +318,138 @@ h4 {
 }
 .Bold {
   font-size: 48px;
+}
+.Section-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Section-10 .BlogPart2 {
+  justify-content: space-between;
+  align-items: center;
+}
+.Section-10 .BlogPart2 .Descrption {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Section-10 .BlogPart2 .Descrption p {
+  font-size: 29px;
+  font-weight: 700;
+}
+.Section-10 .BlogPart1 {
+  font-size: 71px;
+}
+.Section-10 .BlogPart3 {
+  gap: 10px;
+}
+.BlogPart4 {
+  margin-top: 20px;
+}
+
+.Section-12 .ContainerBanner11 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  height: 438px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(55, 52, 169, 1);
+  border-radius: 10px;
+}
+
+.Section-12 .ContainerBanner11 p {
+  font-size: 56px;
+  line-height: 61px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.Section-12 .ContainerBanner11 button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(255, 127, 92, 1);
+}
+
+.ForFotter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ForFotter .AllDivContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.AllDivContainer .SectionFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last {
+  text-align: center;
+}
+.Section-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Section-12 .FAQ {
+  margin-left: 70px;
+  font-size: 71px;
+  font-weight: 800;
+}
+
+.DivMesssageCollection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.LeftDiv .Message1 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.LeftDiv .Message2 {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 80px;
+  border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  justify-content: space-around;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.RightDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: center;
+  padding: 30px;
+  height: 450px;
+}
+
+.RightDiv i {
+  font-size: 80px;
+  margin-left: 40%;
+}
+
+.RightDiv button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 127, 92, 1);
 }
